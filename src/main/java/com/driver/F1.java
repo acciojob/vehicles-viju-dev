@@ -44,7 +44,7 @@ public class F1 extends Car {
             else if (newSpeed >=151 && newSpeed<=200){
                 changeGear(4);
             }
-            else if (newSpeed >=200 && newSpeed<=250){
+            else if (newSpeed >=201 && newSpeed<=250){
                 changeGear(5);
             }
             else if (newSpeed > 250){
