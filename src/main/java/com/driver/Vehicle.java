@@ -9,9 +9,9 @@ public class Vehicle {
     public String getName() {
         return name;
     }
-//    public void setName(String newName){
-//        this.name = newName;
-//    }
+    public void setName(String newName){
+        this.name = newName;
+    }
     public Vehicle(String name) {
         this.name = name;
         this.currentSpeed = 0;
